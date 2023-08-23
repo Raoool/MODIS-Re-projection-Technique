@@ -1,3 +1,5 @@
+# Author: Rahul Kumar Shah, SDSU Image Processing Laboratory
+
 #gdalwarp -of GTiff -tr 463.312716525 463.312716525 -te -208941.69809903 4455243.71494557 2271171.27345929 5585726.74326657 overviewLevel = 'NONE' -s_srs '+proj=sinu +R=6371007.181 +nadgrids=@null +wktext' -r near -t_srs "EPSG:32614" HDF4_EOS:EOS_GRID:"MCD12Q1.A2002001.h08v05.006.2018143052128.hdf":MCD12Q1:"LC_Type1" test_1_P.tif
                                                              #left            bottom            right           top
 #-tr 300 300 
